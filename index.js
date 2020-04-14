@@ -22,6 +22,7 @@ form.addEventListener('submit', e => {
             document.getElementById('empty-error').classList.replace('error', 'hidden');
             document.getElementById('email-error').classList.replace('hidden', 'error');
         } else {
+            document.getElementById('empty-error').classList.replace('error', 'hidden');
             document.getElementById('email-error').classList.replace('error', 'hidden');
             email.classList.remove('error-border');
         }
