@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <img class="logo" src="./images/logo.svg" alt="logo">
+
+    <p class="header">We are launching <span class="header-bold">soon!</span></p>
+
+    <p class="sub-header">Subscribe and get notified</p>
+
+    <form id="form">
+      <label for="email">
+        <input type="text" id="email" placeholder="Your email address..." autocomplete="off">
+      </label>
+      <p id="empty-error" class="error hidden">Whoops! It looks like you forgot to add your email</p>
+      <p id="email-error"" class=" error hidden">Please provide a valid email address</p>
+      <button name="btn" type="submit">Notify Me</button>
+    </form>
+
+    <img class="img" src="./images/illustration-dashboard.png" alt="illustration">
+
+    <i class="fa fa-facebook icon icon-f" aria-hidden="true"></i>
+    <i class="fa fa-twitter icon" aria-hidden="true"></i>
+    <i class="fa fa-instagram icon" aria-hidden="true"></i>
+
+    <footer>
+      &copy; Copyright Ping. All rights reserved.
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
